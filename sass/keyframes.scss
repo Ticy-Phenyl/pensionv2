@@ -1,0 +1,21 @@
+@keyframes affichage_cards {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+    to {
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes affichage_cards {
+    0% {
+        margin-top: 100%;
+        width: 100%;
+    }
+    100% {
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
