@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Pension canine et éducation" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="#" />
+    <link rel="stylesheet" href="style.css">
+    <title>Chez Miss L</title>
+</head>
+
+
+<body class="mx-auto">
+
+
+
+    <!--Navbar -->
+    <header class="mx-2 mt-1">
+        <nav class="navbar navbar-expand-lg navbar-light gradient-navbar rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-4 p-0" href="index.html">
+                    <h1 id="addHome" class="text-decoration-none text-white">Chez Miss
+                        L
+                    </h1>
+                </a>
+                <h2 class="mb-0 text-white flex-grow-1 flex-shrink-1 text-center">Education et Pension Canine
+                </h2>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item active list-inline-item">
+                            <a class="nav-link active fs-5 text-white gadsden-color" href="education.html"
+                                aria-expanded="false">
+                                Education
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active fs-5 text-white gadsden-color" href="pension.html"
+                                id="navbarDropdown" role="button" aria-expanded="false">
+                                Pension
+                            </a>
+                        </li>
+                        <li class="nav-item  mr-5">
+                            <a class="nav-link  active text-white fs-5 gadsden-color" href="contact.html"
+                                aria-expanded="false">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container-fluid">
+
+
+        <div class="mt-0 mx-2 mb-2 rounded">
+            <label class="d-flex mt-2" id="searchLabel" for="searchInput"><span class="sr-only">Recherche</span></label>
+            <input class="form-control" id="searchInput" aria-labelledby="searchLabel" name="searchInput" type="text"
+                placeholder="Recherche..." onclick="shadowMe()">
+        </div>
+
+
+        <div id="carouselControls" class="carousel slide carousel-fade mx-n1 mb-4" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselControls" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselControls" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselControls" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselControls" data-bs-slide-to="3"></li>
+
+            </ol>
+            <div class="carousel slide" data-interval="5500" data-ride="carousel">
+                <div class="carousel-inner col-12 mx-auto">
+                    <div class="carousel-item active rounded">
+                        <img src="./img/img_education_2.jpg" class="d-block mx-auto w-100" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="./img/img_education.jpg" class="d-block mx-auto w-100" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="./img/pension_img_1.jpg" class="d-block mx-auto w-100" alt="Photo_3">
+                    </div>
+
+                    <div class="carousel-control-prev" role="button" data-bs-target="#carouselControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </div>
+                    <div class="carousel-control-next" role="button" data-bs-target="#carouselControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="letMeKnow">
+
+
+            <div class="card mx-auto border border-3 rounded mb-3 h-100">
+                <div class="row g-0 d-flex">
+                    <div class="col-4">
+                        <img src="./img/MissL-card.jpg" alt="Miss L" class="img-fluid h-100 rounded-start pe-1">
+                    </div>
+
+                    <div class="col-8 alpha h-auto">
+                        <a href="education.html" class="text-decoration-none text-white">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="fs-1">Education Canine</h3>
+                                </div>
+                                <div class="card-text">
+                                    Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.<br>
+                                    <p class="mt-2">
+                                        Tous les chiens sont acceptés (sauf husky et malinois). Nous privilégions le
+                                        renforcement positif, qui favorise la mise en valeur de bons comportements par
+                                        la
+                                        récompense (félicitations, caresses...)
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mx-auto border border-3 rounded mb-3">
+                <div class="row g-0">
+                    <div class="col-8 beta">
+                        <a href="pension.html" class="text-decoration-none text-white">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="fs-1">Pension Canine</h3>
+                                </div>
+                                <div class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, lorem
+                                    ipsum dolor sit. <br>
+                                    <p class="mt-2">
+                                        La pension canine chez Miss L accueille toute l'année vos fidèles compagnons.
+                                        Nous disposons de 11 box d’une superficie variant entre 8 et 10m² (6 box de 10m²
+                                        et 5 box de 8m²).
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/Terrain-card.jpg" alt="img pension" class="img-fluid h-100 rounded-end ms-1">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mx-auto border border-3 rounded mb-3">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="./img/Terrain-card_2.jpg" alt="Miss L" class="img-fluid h-100 rounded-start pe-1">
+                    </div>
+
+                    <div class="col-8 delta">
+                        <a href="education.html" class="text-decoration-none text-white">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3 class="fs-1">Contact</h3>
+                                </div>
+                                <div class="card-text">
+                                    Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet.<br>
+                                    <p class="mt-2">
+                                        Nous sommes ouverts 7j/7, 12h/j (remise de 5% si vous arrivez de nuit). À 10
+                                        minutes de Montauban.
+                                        GPS: 44.0990675,1.4657462
+
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <footer class="bg-success rounded my-4">
+                <div class="text-center text-white py-1">
+                    <h5 class="mb-0 mt-1">© 2022 Copyright - モイラ</h5>
+                </div>
+            </footer>
+
+
+
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--jquery nécessaire pr fctn search: -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="search.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

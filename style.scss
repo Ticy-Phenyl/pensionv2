@@ -1,0 +1,60 @@
+@import "./scss/variables.scss";
+@import "./scss/keyframes.scss";
+@import "./scss/breakpoints.scss";
+
+body {
+    width: 100%;
+    background-color: #fefee2;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+#letMeKnow {
+    animation-duration: 3.5s;
+    animation-delay: 0.2ms;
+    animation-name: affichage_cards;
+    animation-iteration-count: initial;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-delay: 0.2ms;
+    -webkit-animation-name: affichage_cards;
+    -webkit-animation-iteration-count: initial;
+}
+
+.gradient-navbar {
+    background: linear-gradient(140deg, #0275d8, #5bc0de);
+}
+
+.alpha {
+    background: linear-gradient(100deg, $indigo, $teal);
+}
+
+.beta {
+    background: linear-gradient(120deg, $teal, $cyan);
+}
+
+.delta {
+    background: linear-gradient(140deg, $blue, $pink);
+}
+
+/* Modification des couleurs du bouton de la navbar :*/
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='255, 255, 255' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (min-width: 990px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h2 {
+        display: none;
+    }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Pension canine et éducation" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="#" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pension</title>
+</head>
+
+
+<body class="mx-auto">
+
+
+    <!--Navbar -->
+    <header class="mx-2 mt-1">
+        <nav class="navbar navbar-expand-lg navbar-light gradient-navbar rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-4 p-0" href="index.html">
+                    <h1 id="addHome" class="text-decoration-none text-white">Chez Miss
+                        L
+                    </h1>
+                </a>
+                <h2 class="mb-0 text-white flex-grow-1 flex-shrink-1 text-center">Education et Pension Canine
+                </h2>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5 text-white gadsden-color" href="index.html"
+                                aria-expanded="false">
+                                Acceuil
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active fs-5 text-white gadsden-color" href="education.html"
+                                id="navbarDropdown" role="button" aria-expanded="false">
+                                Education
+                            </a>
+                        </li>
+                        <li class="nav-item  mr-5">
+                            <a class="nav-link  active text-white fs-5 gadsden-color" href="contact.html"
+                                aria-expanded="false">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container-fluid">
+
+        <div class="mt-0 mx-2 mb-2 rounded">
+            <label class="d-flex mt-2" id="searchLabel" for="searchInput"><span class="sr-only">Recherche</span></label>
+            <input class="form-control" id="searchInput" aria-labelledby="searchLabel" name="searchInput" type="text"
+                placeholder="Recherche..." onclick="shadowMe()">
+        </div>
+
+        <div class="row mx-auto" id="letMeKnow">
+
+
+            <div class="card w-100 pt-1 px-1 my-3 text-light border-secondary">
+                <img src="./img/pension_img_1.jpg" alt="Education image" class="card-img">
+                <div class="card-img-overlay h-25 pt-2">
+                    <h3 class="card-title">La Pension</h3>
+                </div>
+
+                <div class="card-text bg-light text-dark rounded p-2 ">
+                    <p>Chaque chien dispose d’un box individuel de 12 m², clair et chauffé en hiver avec un accès
+                        libre vers une courette extérieur.</p>
+                    <p>Nous avons 2 grandes chambres qui nous permettent de garder plusieurs chiens de la même famille
+                        ou
+                        alors
+                        de très gros chiens (bullmastiff, Léonberg, Saint Bernard…)</p>
+                    <p>Nous disposons de 4 parcs de 1000 m2 chacun entièrement clos et sécurisés où vos compagnons
+                        peuvent
+                        se
+                        détendre et jouer tout au long de la journée.</p>
+                    <p>
+                        L’hébergement de vos compagnons est assuré dans des installations très récentes, modernes,
+                        construites
+                        aux dernières normes européennes, particulièrement adaptées et accueillantes.</p>
+                    <p>
+                        Les locaux sont nettoyés et désinfectés quotidiennement afin d’assurer une hygiène rigoureuse.
+                    </p>
+                    <p>
+                        Notre capacité d’accueil, nous permet de vous proposer une garde très personnalisée et adaptée
+                        de
+                        votre
+                        compagnon et ceci afin de répondre pleinement à vos attentes.</p>
+
+                    <p class="mb-1">Il est conseillé et dans certains cas obligatoire de faire une journée d’essai.</p>
+                </div>
+
+                <div class="card-footer mx-2 bg-transparent px-2">
+                    <a href="contact.html" class="card-link btn beta text-white">Contactez-nous</a>
+                </div>
+            </div>
+
+
+            <div class="card w-100 my-4 text-light border-secondary">
+                <img src="img_tarifs.jpg" alt="Tarifs_img" class="card-img">
+                <div class="card-img-overlay h-25 pt-2">
+                    <h3 class="card-title">Tarifs</h3>
+                </div>
+                <div class="card-text bg-light text-dark rounded p-2 ">
+                    <p><strong>Hors vacances scolaires:</strong><br>
+                        19€ par jour et 10€ à partir du second chien partageant le même box.
+                    </p>
+
+                    <p><strong>Périodes de vacances scolaires:</strong><br>
+                        23€ par jour et 8€ à partir du second chien partageant le même box.
+                    </p>
+
+                    <p>
+                        <i class="fas fa-exclamation-triangle"></i> Les chiens de type malinois sont acceptés contre un
+                        supplément de 50€ par jour avec copie des vaccins à jour. <br>
+                        Les huskys ne sont pas acceptés.
+                    </p>
+
+                    <p>
+                        <i class="fas fa-exclamation-triangle"></i> Les labradors sont hébergés à titre gracieux.
+                    </p>
+                </div>
+
+                <div class="card-footer bg-transparent px-2">
+                    <a href="contact.html" class="card-link btn beta text-white">Contactez-nous</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <footer class="bg-success rounded my-4">
+            <div class="text-center text-white py-1">
+                <h5 class="mb-0 mt-1">© 2022 Copyright - モイラ</h5>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+    <!--jquery nécessaire pr fctn search: -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="search.js" defer></script>
+
+
+
+</body>
+
+</html>
