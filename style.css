@@ -76,4 +76,36 @@ body {
     display: none;
   }
 }
+
+.bg-anim {
+  background: -webkit-gradient(linear, right top, left top, from(#f8f9fa), to(#b9d1e8));
+  background: linear-gradient(270deg, #f8f9fa, #b9d1e8);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
